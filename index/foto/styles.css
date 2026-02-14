@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #ffff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.navbar-brand > span {
+  color: rgba(26, 133, 248, 1);
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.search {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  height: 40px;
+  width: 80%;
+  margin-right: -35px;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid rgba(26, 133, 248, 1);
+}
+
+.btn0 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 60px;
+  background-color: rgba(26, 133, 248, 1);
+  color: #ffff;
+  font-weight: 700;
+}
+
+.main {
+  /* background: url(IMG/BG.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  width: 100%;
+}
+.container1 {
+  padding-top: 300px;
+  padding-left: 175px;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #ffff;
+}
+
+.btn1 {
+  height: 45px;
+  width: 20%;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  background-color: rgba(26, 133, 248, 1);
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  color: #ffff;
+  box-shadow: 2px 2px 5px black;
+}
+
+.gambar1 {
+  width: 150px;
+   height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cp-gambar1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+}
+
+.container2 h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+}
+
+.container2 h6 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+
+.card-hover:hover {
+  transform: scale(1.02); /* Zoom sedikit */
+  box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* login */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.btn-floating {
+  margin: 0 5px; /* Jarak antar tombol */
+  border-radius: 50%; /* Bentuk bulat */
+}
+.d-flex .btn-floating {
+  display: inline-block; /* Pastikan tombol sejajar */
+}
+
+/* cart */
+.btn-redeem {
+  background-color: rgba(26, 133, 248, 1);
+  color: white;
+  border: none;
+}
+
+.btn-redeem:hover {
+  background-color: #0b5ed7;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;        /* atur tinggi sesuai selera */
+  object-fit: cover;    /* biar gak gepeng */
+}
